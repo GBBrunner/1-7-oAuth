@@ -7,6 +7,5 @@ LABEL description="Node.js OAuth demo app for TEWP 1050 Docker lab"
 WORKDIR /app
 COPY . .
 RUN npm install
-EXPOSE 3000 4000
-
+EXPOSE 3000 4001
 CMD ["node", "app.js"]

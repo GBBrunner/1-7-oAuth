@@ -17,8 +17,8 @@ app.use((err, req, res, next) => {
   res.status(500).send("Something broke!");
 });
 
-app.listen(4000, () => {
-  console.log("listening on port 4000");
+app.listen(4001, () => {
+  console.log("listening on port 4001");
 });
 
 function isLoggedIn(req, res, next) {
